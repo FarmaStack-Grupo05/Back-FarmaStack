@@ -1,2 +1,0 @@
-#FarmaStack
-Proyecto Final 
