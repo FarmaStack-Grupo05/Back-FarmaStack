@@ -2,7 +2,7 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const morgan = require("morgan");
-// const router = require("./routes/index")
+const router = require("./routes/index");
 
 const app = express();
 app.use(cors());
@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true })); // esto reemplaza la dependenci
 app.use(cookieParser());
 app.use(morgan("dev")); // el dev  para que todo se muestre en consola
 
-// app.use("/", router)
+app.use("/", router);
 
 // Error catching endware.
 app.use((err, req, res, next) => {
