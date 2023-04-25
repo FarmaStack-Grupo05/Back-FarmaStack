@@ -4,7 +4,6 @@ const deleteProduct = async (req, res) => {
   const { id } = req.params;
   try {
     const result = await deleteProductId(id);
-    console.log("acá llego handler", result);
     res.status(200).json(result);
   } catch (error) {
     console.log(error);
