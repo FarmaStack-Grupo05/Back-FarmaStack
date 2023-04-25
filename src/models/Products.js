@@ -28,6 +28,11 @@ module.exports = (sequelize) => {
 				defaultValue:
 					"https://previews.123rf.com/images/bsd555/bsd5551709/bsd555170901502/87239039-mano-abierta-con-icono-lineal-de-drogas-ilustraci%C3%B3n-de-l%C3%ADnea-delgada-suministro-de-medicamentos.jpg",
 			},
+			active: {
+				type: DataTypes.BOOLEAN,
+				allowNull: true,
+				defaultValue: true,
+			},
 		},
 		{
 			timestamps: false,
