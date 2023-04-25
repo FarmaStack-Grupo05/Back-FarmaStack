@@ -1,6 +1,7 @@
 const app = require("./src/app");
+const { conn } = require("./src/db.js");
 
-app.sync({ force: true }).then(() => {
+conn.sync({ force: true }).then(() => {
 	app.listen(3001, () => {
 		console.log("listening at 3001");
 	});
