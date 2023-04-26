@@ -1,354 +1,376 @@
 {
+	
 	"products": [
 		{
-			"name": "California Live Oak Coast",
-			"price": "$17.33",
-			"description": "Rheumatism, unspecified",
-			"image": "http://dummyimage.com/203x100.png/dddddd/000000",
-			"type": "ALK-Abello, Inc."
+		  "name": "Aspirin",
+		  "description": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) used to treat pain, fever, and inflammation.",
+		  "image": "https://example.com/images/aspirin.jpg",
+		  "category": "Medicines",
+		  "price": 6.99
 		},
 		{
-			"name": "Clotrimazole",
-			"price": "$82.10",
-			"description": "Disp fx of r tibial spin, 7thM",
-			"image": "http://dummyimage.com/219x100.png/dddddd/000000",
-			"type": "Meijer Distribution Inc"
+		  "name": "Amoxicillin",
+		  "description": "Amoxicillin is an antibiotic used to treat a wide variety of bacterial infections.",
+		  "image": "https://example.com/images/amoxicillin.jpg",
+		  "category": "Medicines",
+		  "price": 12.99
 		},
 		{
-			"name": "Red Maple",
-			"price": "$73.43",
-			"description": "Pathological fracture in other disease, unspecified site",
-			"image": "http://dummyimage.com/120x100.png/dddddd/000000",
-			"type": "Nelco Laboratories, Inc."
+		  "name": "Loratadine",
+		  "description": "Loratadine is an antihistamine used to treat allergy symptoms such as sneezing, itching, and watery eyes.",
+		  "image": "https://example.com/images/loratadine.jpg",
+		  "category": "Medicines",
+		  "price": 9.49
 		},
 		{
-			"name": "Nicotine Polacrilex",
-			"price": "$84.51",
-			"description": "Displaced segmental fracture of shaft of right femur",
-			"image": "http://dummyimage.com/178x100.png/cc0000/ffffff",
-			"type": "Premier Value"
+		  "name": "Toothpaste",
+		  "description": "Toothpaste is a paste or gel used with a toothbrush to clean and maintain the health of teeth.",
+		  "image": "https://example.com/images/toothpaste.jpg",
+		  "category": "Personal care",
+		  "price": 3.99
 		},
 		{
-			"name": "Ranitidine",
-			"price": "$49.09",
-			"description": "Hallucinogen dependence w unsp hallucinogen-induced disorder",
-			"image": "http://dummyimage.com/106x100.png/dddddd/000000",
-			"type": "Kmart Corporation"
+		  "name": "Shampoo",
+		  "description": "Shampoo is a hair care product used to clean and remove dirt, oil, and other impurities from hair.",
+		  "image": "https://example.com/images/shampoo.jpg",
+		  "category": "Personal care",
+		  "price": 5.99
 		},
 		{
-			"name": "BETHANECHOL CHLORIDE",
-			"price": "$61.05",
-			"description": "Pre-existing secondary htn comp pregnancy, first trimester",
-			"image": "http://dummyimage.com/145x100.png/dddddd/000000",
-			"type": "Global Pharmaceuticals, Division of Impax Laboratories, Inc."
+		  "name": "Condoms",
+		  "description": "Condoms are barrier devices made of latex or polyurethane used to reduce the risk of sexually transmitted infections and unintended pregnancies.",
+		  "image": "https://example.com/images/condoms.jpg",
+		  "category": "Sexual health",
+		  "price": 12.49
 		},
 		{
-			"name": "DEXTROMETHORPHAN",
-			"price": "$57.45",
-			"description": "Primary blast injury of bronchus, unspecified, init encntr",
-			"image": "http://dummyimage.com/209x100.png/dddddd/000000",
-			"type": "Chain Drug Consortium, LLC"
+		  "name": "Lubricant",
+		  "description": "Lubricant is a gel or liquid used to decrease friction and enhance comfort during sexual activity.",
+		  "image": "https://example.com/images/lubricant.jpg",
+		  "category": "Sexual health",
+		  "price": 8.99
 		},
 		{
-			"name": "Torsemide",
-			"price": "$47.25",
-			"description": "Lacerat extn musc/fasc/tend r little fngr at forarm lv, init",
-			"image": "http://dummyimage.com/217x100.png/ff4444/ffffff",
-			"type": "SUN PHARMACEUTICAL INDUSTRIES LIMITED"
+		  "name": "Pregnancy Test",
+		  "description": "A pregnancy test is a device used to determine whether a woman is pregnant by detecting the presence of human chorionic gonadotropin (hCG) in urine.",
+		  "image": "https://example.com/images/pregnancy-test.jpg",
+		  "category": "Maternity",
+		  "price": 11.49
 		},
 		{
-			"name": "clindamycin phosphate",
-			"price": "$12.26",
-			"description": "Nondisplaced avulsion fracture of left ilium, sequela",
-			"image": "http://dummyimage.com/166x100.png/cc0000/ffffff",
-			"type": "Lake Erie Medical DBA Quality Care Products LLC"
+		  "name": "Prenatal Vitamins",
+		  "description": "Prenatal vitamins are supplements containing essential nutrients for pregnant women, such as folic acid, iron, and calcium.",
+		  "image": "https://example.com/images/prenatal-vitamins.jpg",
+		  "category": "Maternity",
+		  "price": 16.99
 		},
 		{
-			"name": "Dock Yellow",
-			"price": "$59.31",
-			"description": "Underdosing of pyrazolone derivatives, subsequent encounter",
-			"image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
-			"type": "ALK-Abello, Inc."
+		  "name": "Nursing Pads",
+		  "description": "Nursing pads are absorbent pads worn inside a nursing bra to prevent milk leakage and keep the breast area dry.",
+		  "image": "https://example.com/images/nursing-pads.jpg",
+		  "category": "Maternity",
+		  "price": 7.99
 		},
 		{
-			"name": "ALCOHOL",
-			"price": "$68.97",
-			"description": "Passenger on bus injured in clsn w ped/anml in traf, subs",
-			"image": "http://dummyimage.com/157x100.png/dddddd/000000",
-			"type": "GOJO Industries, Inc."
+		  "name": "Ibuprofen",
+		  "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever.",
+		  "image": "https://example.com/images/ibuprofen.jpg",
+		  "category": "Medicines",
+		  "price": 5.99
 		},
 		{
-			"name": "CALCIUM FLUORIDE",
-			"price": "$31.54",
-			"description": "Traum rupt of collat ligmt of unsp finger at MCP/IP jt, subs",
-			"image": "http://dummyimage.com/208x100.png/cc0000/ffffff",
-			"type": "Hyland's"
+		  "name": "Acetaminophen",
+		  "description": "Acetaminophen is a pain reliever and fever reducer commonly used to treat headaches, muscle aches, and other minor pain.",
+		  "image": "https://example.com/images/acetaminophen.jpg",
+		  "category": "Medicines",
+		  "price": 4.99
 		},
 		{
-			"name": "venlafaxine",
-			"price": "$90.39",
-			"description": "Latent syphilis, unspecified as early or late",
-			"image": "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
-			"type": "NorthStar RxLLC"
+		  "name": "Cetirizine",
+		  "description": "Cetirizine is an antihistamine used to relieve allergy symptoms such as sneezing, itching, and watery eyes.",
+		  "image": "https://example.com/images/cetirizine.jpg",
+		  "category": "Medicines",
+		  "price": 8.49
 		},
 		{
-			"name": "Red Delicious Apple",
-			"price": "$14.31",
-			"description": "Puncture wound w/o foreign body of unsp part of neck, subs",
-			"image": "http://dummyimage.com/228x100.png/5fa2dd/ffffff",
-			"type": "Nelco Laboratories, Inc."
+		  "name": "Tums",
+		  "description": "Tums is an antacid used to treat heartburn, acid indigestion, and upset stomach.",
+		  "image": "https://example.com/images/tums.jpg",
+		  "category": "Medicines",
+		  "price": 3.99
 		},
 		{
-			"name": "Calendula officinalis",
-			"price": "$72.81",
-			"description": "Preterm labor third tri w preterm del third tri, fetus 5",
-			"image": "http://dummyimage.com/181x100.png/ff4444/ffffff",
-			"type": "King Bio Inc."
+		  "name": "Pepto-Bismol",
+		  "description": "Pepto-Bismol is an over-the-counter medication used to treat symptoms of an upset stomach, such as nausea, heartburn, and diarrhea.",
+		  "image": "https://example.com/images/pepto-bismol.jpg",
+		  "category": "Medicines",
+		  "price": 5.49
 		},
 		{
-			"name": "Dextromethorphan HBr",
-			"price": "$32.00",
-			"description": "Frostbite w tissue necros unsp knee and lower leg, sequela",
-			"image": "http://dummyimage.com/126x100.png/cc0000/ffffff",
-			"type": "Cardinal Health"
+		  "name": "Melatonin",
+		  "description": "Melatonin is a hormone supplement used to help regulate sleep cycles and improve sleep quality.",
+		  "image": "https://example.com/images/melatonin.jpg",
+		  "category": "Medicines",
+		  "price": 9.99
 		},
 		{
-			"name": "Serotonin",
-			"price": "$78.42",
-			"description": "Galeazzi's fracture of unsp radius, init for clos fx",
-			"image": "http://dummyimage.com/121x100.png/ff4444/ffffff",
-			"type": "BioActive Nutritional, Inc."
+		  "name": "Mucinex",
+		  "description": "Mucinex is an expectorant used to thin and loosen mucus in the airways, making it easier to cough up and clear congestion.",
+		  "image": "https://example.com/images/mucinex.jpg",
+		  "category": "Medicines",
+		  "price": 11.49
 		},
 		{
-			"name": "salicylic acid",
-			"price": "$74.07",
-			"description": "Lacerat intrns musc/fasc/tend l idx fngr at wrs/hnd lv, subs",
-			"image": "http://dummyimage.com/142x100.png/dddddd/000000",
-			"type": "Pedinol Pharmacal, Inc."
+		  "name": "Benadryl",
+		  "description": "Benadryl is an antihistamine used to treat allergy symptoms, such as sneezing, itching, and hives, as well as the common cold and motion sickness.",
+		  "image": "https://example.com/images/benadryl.jpg",
+		  "category": "Medicines",
+		  "price": 6.29
 		},
 		{
-			"name": "Hydrocodone Bitartrate and Acetaminophen",
-			"price": "$79.32",
-			"description": "Nondisp fx of med condyle of l femr, 7thD",
-			"image": "http://dummyimage.com/154x100.png/dddddd/000000",
-			"type": "Apotheca Inc."
+		  "name": "Naproxen",
+		  "description": "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever.",
+		  "image": "https://example.com/images/naproxen.jpg",
+		  "category": "Medicines",
+		  "price": 8.99
 		},
 		{
-			"name": "Erythromycin",
-			"price": "$35.09",
-			"description": "Functional quadriplegia",
-			"image": "http://dummyimage.com/102x100.png/cc0000/ffffff",
-			"type": "Akorn, Inc."
+		  "name": "Zinc Lozenges",
+		  "description": "Zinc lozenges are dietary supplements used to support immune system function and reduce the severity and duration of cold symptoms.",
+		  "image": "https://example.com/images/zinc-lozenges.jpg",
+		  "category": "Medicines",
+		  "price": 7.49
 		},
 		{
-			"name": "Hydrochlorothiazide",
-			"price": "$14.77",
-			"description": "Pathological fracture, unspecified humerus, sequela",
-			"image": "http://dummyimage.com/245x100.png/dddddd/000000",
-			"type": "MedVantx, Inc."
+		  "name": "Antibacterial Hand Sanitizer",
+		  "description": "Antibacterial hand sanitizer is a liquid or gel used to kill germs and bacteria on the hands without the need for water or soap.",
+		  "image": "https://example.com/images/hand-sanitizer.jpg",
+		  "category": "Personal care",
+		  "price": 3.29
 		},
 		{
-			"name": "Aluminum Zirconium Tetrachlorohydrex GLY",
-			"price": "$50.81",
-			"description": "Laceration w/o foreign body of unsp thumb w/o damage to nail",
-			"image": "http://dummyimage.com/177x100.png/cc0000/ffffff",
-			"type": "Conopco Inc. d/b/a Unilever"
+		  "name": "Deodorant",
+		  "description": "Deodorant is a personal care product applied to the underarms to help prevent body odor caused by the bacterial breakdown of perspiration.",
+		  "image": "https://example.com/images/deodorant.jpg",
+		  "category": "Personal care",
+		  "price": 4.99
 		},
 		{
-			"name": "Verapamil Hydrochloride",
-			"price": "$74.26",
-			"description": "Breakdown (mechanical) of vascular dialysis catheter, subs",
-			"image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
-			"type": "Clinical Solutions Wholesale"
+		  "name": "Birth Control Pills",
+		  "description": "Birth control pills are oral contraceptives that contain hormones to prevent pregnancy by inhibiting ovulation and altering the lining of the uterus.",
+		  "image": "https://example.com/images/birth-control-pills.jpg",
+		  "category": "Sexual health",
+		  "price": 29.99
 		},
 		{
-			"name": "enoxaparin sodium",
-			"price": "$52.23",
-			"description": "Unsp open wound of l mid finger w damage to nail, sequela",
-			"image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff",
-			"type": "Physicians Total Care, Inc."
+		  "name": "Spermicide",
+		  "description": "Spermicide is a contraceptive substance that destroys sperm, applied before intercourse to prevent pregnancy.",
+		  "image": "https://example.com/images/spermicide.jpg",
+		  "category": "Sexual health",
+		  "price": 9.49
 		},
 		{
-			"name": "Avobenzone",
-			"price": "$72.28",
-			"description": "Oth complications of surgical and medical care, NEC, sequela",
-			"image": "http://dummyimage.com/249x100.png/dddddd/000000",
-			"type": "Circadia by Dr Pugliese, Inc."
+		  "name": "Stretch Mark Cream",
+		  "description": "Stretch mark cream is a topical product used to help prevent and reduce the appearance of stretch marks on the skin during and after pregnancy.",
+		  "image": "https://example.com/images/stretch-mark-cream.jpg",
+		  "category": "Maternity",
+		  "price": 19.99
 		},
 		{
-			"name": "Phenylephrine Hydrochloride",
-			"price": "$50.62",
-			"description": "Toxic eff of harmful algae and algae toxins, slf-hrm, sqla",
-			"image": "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
-			"type": "H E B"
+		  "name": "Belly Band",
+		  "description": "A belly band is a supportive garment worn during pregnancy to provide gentle compression and support to the abdomen and lower back.",
+		  "image": "https://example.com/images/belly-band.jpg",
+		  "category": "Maternity",
+		  "price": 24.99
 		},
 		{
-			"name": "Acyclovir Sodium",
-			"price": "$22.40",
-			"description": "Other malformation of placenta",
-			"image": "http://dummyimage.com/109x100.png/dddddd/000000",
-			"type": "AuroMedics Pharma LLC"
+		  "name": "Nipple Cream",
+		  "description": "Nipple cream is a topical product applied to the nipples to soothe and heal dry, cracked, or sore skin caused by breastfeeding.",
+		  "image": "https://example.com/images/nipple-cream.jpg",
+		  "category": "Maternity",
+		  "price": 11.99
 		},
 		{
-			"name": "PULSATILLA VULGARIS",
-			"price": "$89.83",
-			"description": "Displ seg fx shaft of rad, l arm, 7thF",
-			"image": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
-			"type": "Hyland's"
+		  "name": "Body Wash",
+		  "description": "Body wash is a liquid soap used for cleaning the body during bathing or showering.",
+		  "image": "https://example.com/images/body-wash.jpg",
+		  "category": "Personal care",
+		  "price": 5.49
 		},
 		{
-			"name": "Triclosan",
-			"price": "$54.11",
-			"description": "Carcinoma in situ of respiratory system, unspecified",
-			"image": "http://dummyimage.com/206x100.png/ff4444/ffffff",
-			"type": "Triz Laboratories Ltd."
+		  "name": "Emergency Contraceptive",
+		  "description": "Emergency contraceptive is a medication used to prevent pregnancy after unprotected sex or contraceptive failure, such as a condom breaking.",
+		  "image": "https://example.com/images/emergency-contraceptive.jpg",
+		  "category": "Sexual health",
+		  "price": 39.99
 		},
 		{
-			"name": "Trandolapril",
-			"price": "$38.81",
-			"description": "Pseudopapilledema of optic disc, unspecified eye",
-			"image": "http://dummyimage.com/234x100.png/cc0000/ffffff",
-			"type": "AvKARE, Inc."
+		  "name": "Postpartum Support Belt",
+		  "description": "A postpartum support belt is a garment designed to provide support and compression to the abdominal muscles after childbirth, helping to alleviate pain and discomfort.",
+		  "image": "https://example.com/images/postpartum-support-belt.jpg",
+		  "category": "Maternity",
+		  "price": 29.99
 		},
 		{
-			"name": "BACITRACIN",
-			"price": "$25.84",
-			"description": "Civilian aircraft in air trnsp acc w military aircraft, subs",
-			"image": "http://dummyimage.com/104x100.png/dddddd/000000",
-			"type": "CARDINAL HEALTH"
+		  "name": "Mouthwash",
+		  "description": "Mouthwash is a liquid oral hygiene product used to kill germs, freshen breath, and reduce plaque and gingivitis.",
+		  "image": "https://example.com/images/mouthwash.jpg",
+		  "category": "Personal care",
+		  "price": 4.49
 		},
 		{
-			"name": "gadodiamide",
-			"price": "$76.12",
-			"description": "Congenital absence, atresia and stenosis of prt sm int",
-			"image": "http://dummyimage.com/189x100.png/ff4444/ffffff",
-			"type": "GE Healthcare Inc."
+		  "name": "Tampons",
+		  "description": "Tampons are absorbent feminine hygiene products inserted into the vagina during menstruation to absorb menstrual fluid.",
+		  "image": "https://example.com/images/tampons.jpg",
+		  "category": "Personal care",
+		  "price": 6.99
 		},
 		{
-			"name": "Black Walnut",
-			"price": "$17.91",
-			"description": "Hostility",
-			"image": "http://dummyimage.com/184x100.png/ff4444/ffffff",
-			"type": "Nelco Laboratories, Inc."
+		  "name": "Menstrual Cup",
+		  "description": "A menstrual cup is a reusable, bell-shaped feminine hygiene product made of medical-grade silicone, latex, or elastomer that is inserted into the vagina during menstruation to collect menstrual fluid.",
+		  "image": "https://example.com/images/menstrual-cup.jpg",
+		  "category": "Personal care",
+		  "price": 29.99
 		},
 		{
-			"name": "Citalopram",
-			"price": "$62.50",
-			"description": "Enterostomy complication, unspecified",
-			"image": "http://dummyimage.com/184x100.png/cc0000/ffffff",
-			"type": "Aphena Pharma Solutions - New Jersey, LLC"
+		  "name": "Pads",
+		  "description": "Pads are absorbent feminine hygiene products worn in the underwear during menstruation to absorb menstrual fluid.",
+		  "image": "https://example.com/images/pads.jpg",
+		  "category": "Personal care",
+		  "price": 5.49
 		},
 		{
-			"name": "Meclizine HCl",
-			"price": "$39.15",
-			"description": "Drug or chemical induced diabetes mellitus w hyperosmolarity",
-			"image": "http://dummyimage.com/183x100.png/cc0000/ffffff",
-			"type": "Rite Aid"
+		  "name": "Diaphragm",
+		  "description": "A diaphragm is a shallow, dome-shaped silicone cup that is inserted into the vagina and covers the cervix, acting as a barrier to prevent sperm from reaching the uterus.",
+		  "image": "https://example.com/images/diaphragm.jpg",
+		  "category": "Sexual health",
+		  "price": 49.99
 		},
 		{
-			"name": "Octinoxate and Oxybenzone",
-			"price": "$46.51",
-			"description": "Osteochondrosis (juvenile) of metacarpal heads, right hand",
-			"image": "http://dummyimage.com/233x100.png/ff4444/ffffff",
-			"type": "Ventura Corporation LTD."
+		  "name": "Floss",
+		  "description": "Floss is a dental hygiene product used to clean between the teeth and remove plaque and food particles.",
+		  "image": "https://example.com/images/floss.jpg",
+		  "category": "Personal care",
+		  "price": 2.49
 		},
 		{
-			"name": "Phenylephrine HCl",
-			"price": "$90.52",
-			"description": "Other specified injuries of unspecified lower leg",
-			"image": "http://dummyimage.com/150x100.png/cc0000/ffffff",
-			"type": "CVS Pharmacy"
+		  "name": "Hair Conditioner",
+		  "description": "Hair conditioner is a hair care product applied after shampooing to improve the texture, manageability, and appearance of hair.",
+		  "image": "https://example.com/images/hair-conditioner.jpg",
+		  "category": "Personal care",
+		  "price": 6.99
 		},
 		{
-			"name": "Exotic Cherry",
-			"price": "$88.00",
-			"description": "Type 1 diabetes with stable prolif diabetic retinopathy",
-			"image": "http://dummyimage.com/223x100.png/5fa2dd/ffffff",
-			"type": "Advanced Beauty Systems, Inc."
+		  "name": "Dental Picks",
+		  "description": "Dental picks are oral hygiene tools used to clean between the teeth and remove plaque, food particles, and tartar.",
+		  "image": "https://example.com/images/dental-picks.jpg",
+		  "category": "Personal care",
+		  "price": 3.99
 		},
 		{
-			"name": "Antimonium crudum",
-			"price": "$12.22",
-			"description": "Type 2 diabetes mellitus with oth circulatory complications",
-			"image": "http://dummyimage.com/236x100.png/dddddd/000000",
-			"type": "King Bio Inc."
+		  "name": "Heating Pad",
+		  "description": "A heating pad is a therapeutic device that provides warmth and comfort to alleviate pain and discomfort associated with muscle strains, cramps, and injuries.",
+		  "image": "https://example.com/images/heating-pad.jpg",
+		  "category": "Medicines",
+		  "price": 24.99
 		},
 		{
-			"name": "methscopolamine bromide",
-			"price": "$63.31",
-			"description": "Abrasion of unspecified front wall of thorax, init encntr",
-			"image": "http://dummyimage.com/156x100.png/ff4444/ffffff",
-			"type": "BAYSHORE PHARMACEUTICALS LLC"
+		  "name": "Cold Pack",
+		  "description": "A cold pack is a therapeutic device used to apply cold therapy to an injured area, helping to reduce inflammation, swelling, and pain.",
+		  "image": "https://example.com/images/cold-pack.jpg",
+		  "category": "Medicines",
+		  "price": 12.99
 		},
 		{
-			"name": "TRICLOSAN",
-			"price": "$60.32",
-			"description": "Direct infct of r elbow in infec/parastc dis classd elswhr",
-			"image": "http://dummyimage.com/118x100.png/ff4444/ffffff",
-			"type": "MEIJER DISTRIBUTION INC"
+		  "name": "Prenatal Support Belt",
+		  "description": "A prenatal support belt is a garment designed to provide support and relieve pain in the lower back and abdomen during pregnancy.",
+		  "image": "https://example.com/images/prenatal-support-belt.jpg",
+		  "category": "Maternity",
+		  "price": 32.99
 		},
 		{
-			"name": "Isosorbide Dinitrate",
-			"price": "$88.94",
-			"description": "Nondisp fx of nk of 5th MC bone, l hand, 7thD",
-			"image": "http://dummyimage.com/220x100.png/dddddd/000000",
-			"type": "Major Pharmaceuticals"
+		  "name": "Maternity Pillow",
+		  "description": "A maternity pillow is a specially designed pillow to provide support and comfort to the body during pregnancy, helping to alleviate discomfort and promote better sleep.",
+		  "image": "https://example.com/images/maternity-pillow.jpg",
+		  "category": "Maternity",
+		  "price": 49.99
 		},
 		{
-			"name": "Hypophysis 7 Special Order",
-			"price": "$11.05",
-			"description": "Corros 2nd deg mul sites of unsp lower limb, ex ank/ft, subs",
-			"image": "http://dummyimage.com/160x100.png/ff4444/ffffff",
-			"type": "Uriel Pharmacy Inc."
+		  "name": "Vaginal Moisturizer",
+		  "description": "Vaginal moisturizer is a personal lubricant used to alleviate vaginal dryness and discomfort during sexual activity.",
+		  "image": "https://example.com/images/vaginal-moisturizer.jpg",
+		  "category": "Sexual health",
+		  "price": 13.99
 		},
 		{
-			"name": "Toasted Vanilla",
-			"price": "$98.44",
-			"description": "Traum rupture of ligmt of r idx fngr at MCP/IP jt, sequela",
-			"image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff",
-			"type": "Advanced Beauty Systems, Inc."
+		  "name": "Female Condom",
+		  "description": "A female condom is a pouch-like barrier device inserted into the vagina to help prevent the transmission of sexually transmitted infections and unintended pregnancies.",
+		  "image": "https://example.com/images/female-condom.jpg",
+		  "category": "Sexual health",
+		  "price": 14.99
 		},
 		{
-			"name": "Avobenzone",
-			"price": "$91.73",
-			"description": "Food in bronchus causing other injury, initial encounter",
-			"image": "http://dummyimage.com/244x100.png/cc0000/ffffff",
-			"type": "MSD Consumer Care, Inc."
+		  "name": "Shaving Cream",
+		  "description": "Shaving cream is a personal care product applied to the skin before shaving to provide lubrication, reduce irritation, and achieve a closer shave.",
+		  "image": "https://example.com/images/shaving-cream.jpg",
+		  "category": "Personal care",
+		  "price": 4.99
 		},
 		{
-			"name": "FUROSEMIDE",
-			"price": "$24.22",
-			"description": "Strain of intrinsic musc/fasc/tend l rng fngr at wrs/hnd lv",
-			"image": "http://dummyimage.com/175x100.png/dddddd/000000",
-			"type": "REMEDYREPACK INC."
+		  "name": "Razors",
+		  "description": "Razors are personal care devices with a sharp blade or multiple blades, used to remove body hair by shaving.",
+		  "image": "https://example.com/images/razors.jpg",
+		  "category": "Personal care",
+		  "price": 8.49
 		},
 		{
-			"name": "Pseudoephedrine HCl",
-			"price": "$44.86",
-			"description": "Puncture wound without foreign body of unsp ear, subs encntr",
-			"image": "http://dummyimage.com/238x100.png/ff4444/ffffff",
-			"type": "Publix Super Markets Inc"
+		  "name": "Toothpaste",
+		  "description": "Toothpaste is a gel or paste used with a toothbrush to clean and maintain the health of teeth and gums.",
+		  "image": "https://example.com/images/toothpaste.jpg",
+		  "category": "Personal care",
+		  "price": 3.49
 		},
 		{
-			"name": "Calcium Acetate",
-			"price": "$86.70",
-			"description": "Disp fx of med malleolus of r tibia, 7thM",
-			"image": "http://dummyimage.com/237x100.png/dddddd/000000",
-			"type": "NCS HealthCare of KY, Inc dba Vangard Labs"
+		  "name": "Shampoo",
+		  "description": "Shampoo is a hair care product used to clean and remove dirt, oil, and other impurities from the hair and scalp.",
+		  "image": "https://example.com/images/shampoo.jpg",
+		  "category": "Personal care",
+		  "price": 5.99
 		},
 		{
-			"name": "ZINC OXIDE",
-			"price": "$14.71",
-			"description": "Maternal care for oth isoimmun, first trimester, fetus 3",
-			"image": "http://dummyimage.com/198x100.png/dddddd/000000",
-			"type": "Humex,Inc."
+		  "name": "Insect Repellent",
+		  "description": "Insect repellent is a product applied to skin, clothing, or other surfaces to prevent insect bites and stings.",
+		  "image": "https://example.com/images/insect-repellent.jpg",
+		  "category": "Medicines",
+		  "price": 6.49
 		},
 		{
-			"name": "Indomethacin",
-			"price": "$49.55",
-			"description": "Unspecified injury of thoracic trachea",
-			"image": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
-			"type": "REMEDYREPACK INC."
+		  "name": "Sunscreen",
+		  "description": "Sunscreen is a lotion, spray, or gel that helps protect the skin from the sun's ultraviolet (UV) radiation, reducing the risk of sunburn and skin cancer.",
+		  "image": "https://example.com/images/sunscreen.jpg",
+		  "category": "Personal care",
+		  "price": 9.99
+		},
+		{
+		  "name": "Antifungal Cream",
+		  "description": "Antifungal cream is a topical medication used to treat fungal skin infections, such as athlete's foot, jock itch, and ringworm.",
+		  "image": "https://example.com/images/antifungal-cream.jpg",
+		  "category": "Medicines",
+		  "price": 8.99
+		},
+		{
+		  "name": "Pregnancy Test",
+		  "description": "A pregnancy test is an over-the-counter diagnostic device used to detect the presence of human chorionic gonadotropin (hCG), a hormone produced during pregnancy, in urine.",
+		  "image": "https://example.com/images/pregnancy-test.jpg",
+		  "category": "Maternity",
+		  "price": 14.99
+		},
+		{
+		  "name": "Ovulation Test",
+		  "description": "An ovulation test is an over-the-counter diagnostic device used to detect a surge in luteinizing hormone (LH), which typically occurs before ovulation, in urine.",
+		  "image": "https://example.com/images/ovulation-test.jpg",
+		  "category": "Maternity",
+		  "price": 24.99
 		}
-	]
-}
+	  ]
+	}
