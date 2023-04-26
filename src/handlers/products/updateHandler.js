@@ -1,4 +1,4 @@
-const updateProductId = require("../../controllers/productUpdate");
+const updateProductId = require("../../controllers/productController/productUpdate");
 
 const updateProduct = async (req, res) => {
 	const { id } = req.params;

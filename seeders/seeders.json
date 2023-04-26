@@ -1,0 +1,354 @@
+{
+	"products": [
+		{
+			"name": "California Live Oak Coast",
+			"price": "$17.33",
+			"description": "Rheumatism, unspecified",
+			"image": "http://dummyimage.com/203x100.png/dddddd/000000",
+			"type": "ALK-Abello, Inc."
+		},
+		{
+			"name": "Clotrimazole",
+			"price": "$82.10",
+			"description": "Disp fx of r tibial spin, 7thM",
+			"image": "http://dummyimage.com/219x100.png/dddddd/000000",
+			"type": "Meijer Distribution Inc"
+		},
+		{
+			"name": "Red Maple",
+			"price": "$73.43",
+			"description": "Pathological fracture in other disease, unspecified site",
+			"image": "http://dummyimage.com/120x100.png/dddddd/000000",
+			"type": "Nelco Laboratories, Inc."
+		},
+		{
+			"name": "Nicotine Polacrilex",
+			"price": "$84.51",
+			"description": "Displaced segmental fracture of shaft of right femur",
+			"image": "http://dummyimage.com/178x100.png/cc0000/ffffff",
+			"type": "Premier Value"
+		},
+		{
+			"name": "Ranitidine",
+			"price": "$49.09",
+			"description": "Hallucinogen dependence w unsp hallucinogen-induced disorder",
+			"image": "http://dummyimage.com/106x100.png/dddddd/000000",
+			"type": "Kmart Corporation"
+		},
+		{
+			"name": "BETHANECHOL CHLORIDE",
+			"price": "$61.05",
+			"description": "Pre-existing secondary htn comp pregnancy, first trimester",
+			"image": "http://dummyimage.com/145x100.png/dddddd/000000",
+			"type": "Global Pharmaceuticals, Division of Impax Laboratories, Inc."
+		},
+		{
+			"name": "DEXTROMETHORPHAN",
+			"price": "$57.45",
+			"description": "Primary blast injury of bronchus, unspecified, init encntr",
+			"image": "http://dummyimage.com/209x100.png/dddddd/000000",
+			"type": "Chain Drug Consortium, LLC"
+		},
+		{
+			"name": "Torsemide",
+			"price": "$47.25",
+			"description": "Lacerat extn musc/fasc/tend r little fngr at forarm lv, init",
+			"image": "http://dummyimage.com/217x100.png/ff4444/ffffff",
+			"type": "SUN PHARMACEUTICAL INDUSTRIES LIMITED"
+		},
+		{
+			"name": "clindamycin phosphate",
+			"price": "$12.26",
+			"description": "Nondisplaced avulsion fracture of left ilium, sequela",
+			"image": "http://dummyimage.com/166x100.png/cc0000/ffffff",
+			"type": "Lake Erie Medical DBA Quality Care Products LLC"
+		},
+		{
+			"name": "Dock Yellow",
+			"price": "$59.31",
+			"description": "Underdosing of pyrazolone derivatives, subsequent encounter",
+			"image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+			"type": "ALK-Abello, Inc."
+		},
+		{
+			"name": "ALCOHOL",
+			"price": "$68.97",
+			"description": "Passenger on bus injured in clsn w ped/anml in traf, subs",
+			"image": "http://dummyimage.com/157x100.png/dddddd/000000",
+			"type": "GOJO Industries, Inc."
+		},
+		{
+			"name": "CALCIUM FLUORIDE",
+			"price": "$31.54",
+			"description": "Traum rupt of collat ligmt of unsp finger at MCP/IP jt, subs",
+			"image": "http://dummyimage.com/208x100.png/cc0000/ffffff",
+			"type": "Hyland's"
+		},
+		{
+			"name": "venlafaxine",
+			"price": "$90.39",
+			"description": "Latent syphilis, unspecified as early or late",
+			"image": "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
+			"type": "NorthStar RxLLC"
+		},
+		{
+			"name": "Red Delicious Apple",
+			"price": "$14.31",
+			"description": "Puncture wound w/o foreign body of unsp part of neck, subs",
+			"image": "http://dummyimage.com/228x100.png/5fa2dd/ffffff",
+			"type": "Nelco Laboratories, Inc."
+		},
+		{
+			"name": "Calendula officinalis",
+			"price": "$72.81",
+			"description": "Preterm labor third tri w preterm del third tri, fetus 5",
+			"image": "http://dummyimage.com/181x100.png/ff4444/ffffff",
+			"type": "King Bio Inc."
+		},
+		{
+			"name": "Dextromethorphan HBr",
+			"price": "$32.00",
+			"description": "Frostbite w tissue necros unsp knee and lower leg, sequela",
+			"image": "http://dummyimage.com/126x100.png/cc0000/ffffff",
+			"type": "Cardinal Health"
+		},
+		{
+			"name": "Serotonin",
+			"price": "$78.42",
+			"description": "Galeazzi's fracture of unsp radius, init for clos fx",
+			"image": "http://dummyimage.com/121x100.png/ff4444/ffffff",
+			"type": "BioActive Nutritional, Inc."
+		},
+		{
+			"name": "salicylic acid",
+			"price": "$74.07",
+			"description": "Lacerat intrns musc/fasc/tend l idx fngr at wrs/hnd lv, subs",
+			"image": "http://dummyimage.com/142x100.png/dddddd/000000",
+			"type": "Pedinol Pharmacal, Inc."
+		},
+		{
+			"name": "Hydrocodone Bitartrate and Acetaminophen",
+			"price": "$79.32",
+			"description": "Nondisp fx of med condyle of l femr, 7thD",
+			"image": "http://dummyimage.com/154x100.png/dddddd/000000",
+			"type": "Apotheca Inc."
+		},
+		{
+			"name": "Erythromycin",
+			"price": "$35.09",
+			"description": "Functional quadriplegia",
+			"image": "http://dummyimage.com/102x100.png/cc0000/ffffff",
+			"type": "Akorn, Inc."
+		},
+		{
+			"name": "Hydrochlorothiazide",
+			"price": "$14.77",
+			"description": "Pathological fracture, unspecified humerus, sequela",
+			"image": "http://dummyimage.com/245x100.png/dddddd/000000",
+			"type": "MedVantx, Inc."
+		},
+		{
+			"name": "Aluminum Zirconium Tetrachlorohydrex GLY",
+			"price": "$50.81",
+			"description": "Laceration w/o foreign body of unsp thumb w/o damage to nail",
+			"image": "http://dummyimage.com/177x100.png/cc0000/ffffff",
+			"type": "Conopco Inc. d/b/a Unilever"
+		},
+		{
+			"name": "Verapamil Hydrochloride",
+			"price": "$74.26",
+			"description": "Breakdown (mechanical) of vascular dialysis catheter, subs",
+			"image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
+			"type": "Clinical Solutions Wholesale"
+		},
+		{
+			"name": "enoxaparin sodium",
+			"price": "$52.23",
+			"description": "Unsp open wound of l mid finger w damage to nail, sequela",
+			"image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff",
+			"type": "Physicians Total Care, Inc."
+		},
+		{
+			"name": "Avobenzone",
+			"price": "$72.28",
+			"description": "Oth complications of surgical and medical care, NEC, sequela",
+			"image": "http://dummyimage.com/249x100.png/dddddd/000000",
+			"type": "Circadia by Dr Pugliese, Inc."
+		},
+		{
+			"name": "Phenylephrine Hydrochloride",
+			"price": "$50.62",
+			"description": "Toxic eff of harmful algae and algae toxins, slf-hrm, sqla",
+			"image": "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
+			"type": "H E B"
+		},
+		{
+			"name": "Acyclovir Sodium",
+			"price": "$22.40",
+			"description": "Other malformation of placenta",
+			"image": "http://dummyimage.com/109x100.png/dddddd/000000",
+			"type": "AuroMedics Pharma LLC"
+		},
+		{
+			"name": "PULSATILLA VULGARIS",
+			"price": "$89.83",
+			"description": "Displ seg fx shaft of rad, l arm, 7thF",
+			"image": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
+			"type": "Hyland's"
+		},
+		{
+			"name": "Triclosan",
+			"price": "$54.11",
+			"description": "Carcinoma in situ of respiratory system, unspecified",
+			"image": "http://dummyimage.com/206x100.png/ff4444/ffffff",
+			"type": "Triz Laboratories Ltd."
+		},
+		{
+			"name": "Trandolapril",
+			"price": "$38.81",
+			"description": "Pseudopapilledema of optic disc, unspecified eye",
+			"image": "http://dummyimage.com/234x100.png/cc0000/ffffff",
+			"type": "AvKARE, Inc."
+		},
+		{
+			"name": "BACITRACIN",
+			"price": "$25.84",
+			"description": "Civilian aircraft in air trnsp acc w military aircraft, subs",
+			"image": "http://dummyimage.com/104x100.png/dddddd/000000",
+			"type": "CARDINAL HEALTH"
+		},
+		{
+			"name": "gadodiamide",
+			"price": "$76.12",
+			"description": "Congenital absence, atresia and stenosis of prt sm int",
+			"image": "http://dummyimage.com/189x100.png/ff4444/ffffff",
+			"type": "GE Healthcare Inc."
+		},
+		{
+			"name": "Black Walnut",
+			"price": "$17.91",
+			"description": "Hostility",
+			"image": "http://dummyimage.com/184x100.png/ff4444/ffffff",
+			"type": "Nelco Laboratories, Inc."
+		},
+		{
+			"name": "Citalopram",
+			"price": "$62.50",
+			"description": "Enterostomy complication, unspecified",
+			"image": "http://dummyimage.com/184x100.png/cc0000/ffffff",
+			"type": "Aphena Pharma Solutions - New Jersey, LLC"
+		},
+		{
+			"name": "Meclizine HCl",
+			"price": "$39.15",
+			"description": "Drug or chemical induced diabetes mellitus w hyperosmolarity",
+			"image": "http://dummyimage.com/183x100.png/cc0000/ffffff",
+			"type": "Rite Aid"
+		},
+		{
+			"name": "Octinoxate and Oxybenzone",
+			"price": "$46.51",
+			"description": "Osteochondrosis (juvenile) of metacarpal heads, right hand",
+			"image": "http://dummyimage.com/233x100.png/ff4444/ffffff",
+			"type": "Ventura Corporation LTD."
+		},
+		{
+			"name": "Phenylephrine HCl",
+			"price": "$90.52",
+			"description": "Other specified injuries of unspecified lower leg",
+			"image": "http://dummyimage.com/150x100.png/cc0000/ffffff",
+			"type": "CVS Pharmacy"
+		},
+		{
+			"name": "Exotic Cherry",
+			"price": "$88.00",
+			"description": "Type 1 diabetes with stable prolif diabetic retinopathy",
+			"image": "http://dummyimage.com/223x100.png/5fa2dd/ffffff",
+			"type": "Advanced Beauty Systems, Inc."
+		},
+		{
+			"name": "Antimonium crudum",
+			"price": "$12.22",
+			"description": "Type 2 diabetes mellitus with oth circulatory complications",
+			"image": "http://dummyimage.com/236x100.png/dddddd/000000",
+			"type": "King Bio Inc."
+		},
+		{
+			"name": "methscopolamine bromide",
+			"price": "$63.31",
+			"description": "Abrasion of unspecified front wall of thorax, init encntr",
+			"image": "http://dummyimage.com/156x100.png/ff4444/ffffff",
+			"type": "BAYSHORE PHARMACEUTICALS LLC"
+		},
+		{
+			"name": "TRICLOSAN",
+			"price": "$60.32",
+			"description": "Direct infct of r elbow in infec/parastc dis classd elswhr",
+			"image": "http://dummyimage.com/118x100.png/ff4444/ffffff",
+			"type": "MEIJER DISTRIBUTION INC"
+		},
+		{
+			"name": "Isosorbide Dinitrate",
+			"price": "$88.94",
+			"description": "Nondisp fx of nk of 5th MC bone, l hand, 7thD",
+			"image": "http://dummyimage.com/220x100.png/dddddd/000000",
+			"type": "Major Pharmaceuticals"
+		},
+		{
+			"name": "Hypophysis 7 Special Order",
+			"price": "$11.05",
+			"description": "Corros 2nd deg mul sites of unsp lower limb, ex ank/ft, subs",
+			"image": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+			"type": "Uriel Pharmacy Inc."
+		},
+		{
+			"name": "Toasted Vanilla",
+			"price": "$98.44",
+			"description": "Traum rupture of ligmt of r idx fngr at MCP/IP jt, sequela",
+			"image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff",
+			"type": "Advanced Beauty Systems, Inc."
+		},
+		{
+			"name": "Avobenzone",
+			"price": "$91.73",
+			"description": "Food in bronchus causing other injury, initial encounter",
+			"image": "http://dummyimage.com/244x100.png/cc0000/ffffff",
+			"type": "MSD Consumer Care, Inc."
+		},
+		{
+			"name": "FUROSEMIDE",
+			"price": "$24.22",
+			"description": "Strain of intrinsic musc/fasc/tend l rng fngr at wrs/hnd lv",
+			"image": "http://dummyimage.com/175x100.png/dddddd/000000",
+			"type": "REMEDYREPACK INC."
+		},
+		{
+			"name": "Pseudoephedrine HCl",
+			"price": "$44.86",
+			"description": "Puncture wound without foreign body of unsp ear, subs encntr",
+			"image": "http://dummyimage.com/238x100.png/ff4444/ffffff",
+			"type": "Publix Super Markets Inc"
+		},
+		{
+			"name": "Calcium Acetate",
+			"price": "$86.70",
+			"description": "Disp fx of med malleolus of r tibia, 7thM",
+			"image": "http://dummyimage.com/237x100.png/dddddd/000000",
+			"type": "NCS HealthCare of KY, Inc dba Vangard Labs"
+		},
+		{
+			"name": "ZINC OXIDE",
+			"price": "$14.71",
+			"description": "Maternal care for oth isoimmun, first trimester, fetus 3",
+			"image": "http://dummyimage.com/198x100.png/dddddd/000000",
+			"type": "Humex,Inc."
+		},
+		{
+			"name": "Indomethacin",
+			"price": "$49.55",
+			"description": "Unspecified injury of thoracic trachea",
+			"image": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
+			"type": "REMEDYREPACK INC."
+		}
+	]
+}

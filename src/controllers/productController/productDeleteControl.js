@@ -1,4 +1,4 @@
-const { Products } = require("../db");
+const { Products } = require("../../db");
 
 const deleteProductId = async (id) => {
 	console.log("Acá llego controller");

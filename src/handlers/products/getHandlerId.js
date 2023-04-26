@@ -1,4 +1,6 @@
-const { getProductsId } = require("../../controllers/productsControl");
+const {
+	getProductsId,
+} = require("../../controllers/productController/productsControl");
 
 const getProductsById = async (req, res) => {
 	const { id } = req.params;

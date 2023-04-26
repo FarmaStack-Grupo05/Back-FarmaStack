@@ -1,4 +1,4 @@
-const { Products } = require("../db");
+const { Products } = require("../../db");
 const { Op } = require("sequelize");
 
 const getProducts = async (req) => {
