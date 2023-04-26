@@ -10,14 +10,10 @@ module.exports = (sequelize) => {
         primaryKey: true,
         autoIncrement: true,
       },
-      total: {
-        type: DataTypes.FLOAT,
-        allowNull: false,
-      },
-      amount: {
+      products: {
         type: DataTypes.INTEGER,
         allowNull: false,
-      },
+      }
     },
     {
       timestamps: false,
