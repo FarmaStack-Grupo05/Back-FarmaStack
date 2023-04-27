@@ -1,0 +1,361 @@
+{
+	"products": [
+		{
+		  "name": "Aspirin",
+		  "description": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) used to treat pain, fever, and inflammation.",
+		  "image": "https://www.farmalisto.com.co/152164/aspirina-100mg-caja-con-28-tabletas.jpg",
+		  "category": "Medicines",
+		  "price": 6.99
+		},
+		{
+		  "name": "Amoxicillin",
+		  "description": "Amoxicillin is an antibiotic used to treat a wide variety of bacterial infections.",
+		  "image": "https://www.drogueriascafam.com.co/48740-large_default/comprar-en-cafam-amoxicilina-500-mg-caja-con-50-capsulas-precio.jpg",
+		  "category": "Medicines",
+		  "price": 12.99
+		},
+		{
+		  "name": "Loratadine",
+		  "description": "Loratadine is an antihistamine used to treat allergy symptoms such as sneezing, itching, and watery eyes.",
+		  "image": "https://www.lasanteca.com/userfiles/2018/12/LORATADINA-10MG-CAJA-POR-10-TABLETAS-CON-BLISTER.jpg",
+		  "category": "Medicines",
+		  "price": 9.49
+		},
+		{
+		  "name": "Toothpaste",
+		  "description": "Toothpaste is a paste or gel used with a toothbrush to clean and maintain the health of teeth.",
+		  "image": "https://unidrogas.vteximg.com.br/arquivos/ids/356798-1000-1000/7702010111556.jpg?v=638181093808600000",
+		  "category": "Personal care",
+		  "price": 3.99
+		},
+		{
+		  "name": "Shampoo",
+		  "description": "Shampoo is a hair care product used to clean and remove dirt, oil, and other impurities from hair.",
+		  "image": "https://unidrogas.vteximg.com.br/arquivos/ids/379154-1000-1000/7500435184779.jpg?v=638181074178300000",
+		  "category": "Personal care",
+		  "price": 5.99
+		},
+		{
+		  "name": "Condoms",
+		  "description": "Condoms are barrier devices made of latex or polyurethane used to reduce the risk of sexually transmitted infections and unintended pregnancies.",
+		  "image": "https://exitocol.vtexassets.com/arquivos/ids/12577877/Condones-Maximo-Placer-X-3-Unds-239418_a.jpg?v=637866919032800000",
+		  "category": "Sexual health",
+		  "price": 12.49
+		},
+		{
+		  "name": "Lubricant",
+		  "description": "Lubricant is a gel or liquid used to decrease friction and enhance comfort during sexual activity.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/937177-1600-auto?v=638161031426200000&width=1600&height=auto&aspect=true",
+		  "category": "Sexual health",
+		  "price": 8.99
+		},
+		{
+		  "name": "Pregnancy Test",
+		  "description": "A pregnancy test is a device used to determine whether a woman is pregnant by detecting the presence of human chorionic gonadotropin (hCG) in urine.",
+		  "image": "https://unidrogas.vteximg.com.br/arquivos/ids/367002-1000-1000/7707226431139.jpg?v=638181081383100000",
+		  "category": "Maternity",
+		  "price": 11.49
+		},
+		{
+		  "name": "Prenatal Vitamins",
+		  "description": "Prenatal vitamins are supplements containing essential nutrients for pregnant women, such as folic acid, iron, and calcium.",
+		  "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/oad/oad55817/v/12.jpg",
+		  "category": "Maternity",
+		  "price": 16.99
+		},
+		{
+		  "name": "Nursing Pads",
+		  "description": "Nursing pads are absorbent pads worn inside a nursing bra to prevent milk leakage and keep the breast area dry.",
+		  "image": "https://m.media-amazon.com/images/I/71e0wNZ3ZQL.jpg",
+		  "category": "Maternity",
+		  "price": 7.99
+		},
+		{
+		  "name": "Ibuprofen",
+		  "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever.",
+		  "image": "https://pics.walgreens.com/prodimg/475112/450.jpg",
+		  "category": "Medicines",
+		  "price": 5.99
+		},
+		{
+		  "name": "Acetaminophen",
+		  "description": "Acetaminophen is a pain reliever and fever reducer commonly used to treat headaches, muscle aches, and other minor pain.",
+		  "image": "https://cdn.shopify.com/s/files/1/0086/7821/1642/products/Acetaminophen_325_mg_100_Tablets_by_Rugby_1200x1200.jpg?v=1626980778",
+		  "category": "Medicines",
+		  "price": 4.99
+		},
+		{
+		  "name": "Cetirizine",
+		  "description": "Cetirizine is an antihistamine used to relieve allergy symptoms such as sneezing, itching, and watery eyes.",
+		  "image": "https://http2.mlstatic.com/D_NQ_NP_694144-MCO27363479670_052018-O.jpg",
+		  "category": "Medicines",
+		  "price": 8.49
+		},
+		{
+		  "name": "Tums",
+		  "description": "Tums is an antacid used to treat heartburn, acid indigestion, and upset stomach.",
+		  "image": "https://http2.mlstatic.com/D_NQ_NP_838647-MCO41230654318_032020-O.webp",
+		  "category": "Medicines",
+		  "price": 3.99
+		},
+		{
+		  "name": "Pepto-Bismol",
+		  "description": "Pepto-Bismol is an over-the-counter medication used to treat symptoms of an upset stomach, such as nausea, heartburn, and diarrhea.",
+		  "image": "https://www.biovea.com/co/images/products/xlrg/3651_z.jpg",
+		  "category": "Medicines",
+		  "price": 5.49
+		},
+		{
+		  "name": "Melatonin",
+		  "description": "Melatonin is a hormone supplement used to help regulate sleep cycles and improve sleep quality.",
+		  "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ntl/ntl00458/l/40.jpg",
+		  "category": "Medicines",
+		  "price": 9.99
+		},
+		{
+		  "name": "Mucinex",
+		  "description": "Mucinex is an expectorant used to thin and loosen mucus in the airways, making it easier to cough up and clear congestion.",
+		  "image": "https://images.albertsons-media.com/is/image/ABS/190950626-ECOM?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+		  "category": "Medicines",
+		  "price": 11.49
+		},
+		{
+		  "name": "Benadryl",
+		  "description": "Benadryl is an antihistamine used to treat allergy symptoms, such as sneezing, itching, and hives, as well as the common cold and motion sickness.",
+		  "image": "https://www.benadryl.com/sites/benadryl_us_2/files/styles/product_image/public/files/header-images/benadryl-extra-strength-allergy.jpg",
+		  "category": "Medicines",
+		  "price": 6.29
+		},
+		{
+		  "name": "Naproxen",
+		  "description": "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever.",
+		  "image": "https://www.drogueriascafam.com.co/49698-large_default/comprar-en-cafam-naproxeno-500-mg-caja-con-10-tabletas-genfar-precio.jpg",
+		  "category": "Medicines",
+		  "price": 8.99
+		},
+		{
+		  "name": "Zinc Lozenges",
+		  "description": "Zinc lozenges are dietary supplements used to support immune system function and reduce the severity and duration of cold symptoms.",
+		  "image": "https://cdn2.evitamins.com/images/products/Natures_Way/12312/250/12312_front2022.webp",
+		  "category": "Medicines",
+		  "price": 7.49
+		},
+		{
+		  "name": "Antibacterial Hand Sanitizer",
+		  "description": "Antibacterial hand sanitizer is a liquid or gel used to kill germs and bacteria on the hands without the need for water or soap.",
+		  "image": "https://funat.co/wp-content/uploads/2021/07/Etiqueta-Gel-antibacterial-220-g.png",
+		  "category": "Personal care",
+		  "price": 3.29
+		},
+		{
+		  "name": "Deodorant",
+		  "description": "Deodorant is a personal care product applied to the underarms to help prevent body odor caused by the bacterial breakdown of perspiration.",
+		  "image": "https://locatelcolombia.vtexassets.com/arquivos/ids/233812/75062798_1_DESODORANTE-REXONA-TONO-PERFECTO-BARRA-X-45G.jpg?v=637442396395870000",
+		  "category": "Personal care",
+		  "price": 4.99
+		},
+		{
+		  "name": "Birth Control Pills",
+		  "description": "Birth control pills are oral contraceptives that contain hormones to prevent pregnancy by inhibiting ovulation and altering the lining of the uterus.",
+		  "image": "https://imagenes.elpais.com/resizer/p5YCiPVVMNe1HBgoOlZTXI5FfA8=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/GC3ZLYVIGBG6NKCCE46VOACJ3M.jpg",
+		  "category": "Sexual health",
+		  "price": 29.99
+		},
+		{
+		  "name": "Spermicide",
+		  "description": "Spermicide is a contraceptive substance that destroys sperm, applied before intercourse to prevent pregnancy.",
+		  "image": "https://m.media-amazon.com/images/I/51HJakUYIcL._AC._SR360,460.jpg",
+		  "category": "Sexual health",
+		  "price": 9.49
+		},
+		{
+		  "name": "Stretch Mark Cream",
+		  "description": "Stretch mark cream is a topical product used to help prevent and reduce the appearance of stretch marks on the skin during and after pregnancy.",
+		  "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/euc/euc63413/v/30.jpg",
+		  "category": "Maternity",
+		  "price": 19.99
+		},
+		{
+		  "name": "Belly Band",
+		  "description": "A belly band is a supportive garment worn during pregnancy to provide gentle compression and support to the abdomen and lower back.",
+		  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhIYb1AC7KbaRFokvM8uquXWItBnoZGsi5Q&usqp=CAU",
+		  "category": "Maternity",
+		  "price": 24.99
+		},
+		{
+		  "name": "Nipple Cream",
+		  "description": "Nipple cream is a topical product applied to the nipples to soothe and heal dry, cracked, or sore skin caused by breastfeeding.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/716192-1600-auto?v=637771387976000000&width=1600&height=auto&aspect=truehttps://example.com/images/nipple-cream.jpg",
+		  "category": "Maternity",
+		  "price": 11.99
+		},
+		{
+		  "name": "Body Wash",
+		  "description": "Body wash is a liquid soap used for cleaning the body during bathing or showering.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/943379-800-auto?v=638171408533570000&width=800&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 5.49
+		},
+		{
+		  "name": "Emergency Contraceptive",
+		  "description": "Emergency contraceptive is a medication used to prevent pregnancy after unprotected sex or contraceptive failure, such as a condom breaking.",
+		  "image": "https://lh3.googleusercontent.com/JRxBAoD7iKld0VN-MPol9Wtr7nbdxs76tMKwaViXgILh6fM_ODUwRqOWwhbMl9Vh24ghQ86ayMrVkVCmJAE7ZQIEUiESqv5lbA=s650-rw",
+		  "category": "Sexual health",
+		  "price": 39.99
+		},
+		{
+		  "name": "Postpartum Support Belt",
+		  "description": "A postpartum support belt is a garment designed to provide support and compression to the abdominal muscles after childbirth, helping to alleviate pain and discomfort.",
+		  "image": "https://http2.mlstatic.com/D_NQ_NP_630451-MCO29619158277_032019-O.webp",
+		  "category": "Maternity",
+		  "price": 29.99
+		},
+		{
+		  "name": "Mouthwash",
+		  "description": "Mouthwash is a liquid oral hygiene product used to kill germs, freshen breath, and reduce plaque and gingivitis.",
+		  "image": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/379609-800-800?v=637921084657230000&width=800&height=800&aspect=true",
+		  "category": "Personal care",
+		  "price": 4.49
+		},
+		{
+		  "name": "Tampons",
+		  "description": "Tampons are absorbent feminine hygiene products inserted into the vagina during menstruation to absorb menstrual fluid.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/932928-1600-auto?v=638157575443570000&width=1600&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 6.99
+		},
+		{
+		  "name": "Menstrual Cup",
+		  "description": "A menstrual cup is a reusable, bell-shaped feminine hygiene product made of medical-grade silicone, latex, or elastomer that is inserted into the vagina during menstruation to collect menstrual fluid.",
+		  "image": "https://i.linio.com/p/6506176964393b857f9f5286069a8c84-product.webp",
+		  "category": "Personal care",
+		  "price": 29.99
+		},
+		{
+		  "name": "Pads",
+		  "description": "Pads are absorbent feminine hygiene products worn in the underwear during menstruation to absorb menstrual fluid.",
+		  "image": "https://alianza-zapatoca.s3.amazonaws.com/prod/images/products/optimized/108568-01__1000.jpg",
+		  "category": "Personal care",
+		  "price": 5.49
+		},
+		{
+		  "name": "Diaphragm",
+		  "description": "A diaphragm is a shallow, dome-shaped silicone cup that is inserted into the vagina and covers the cervix, acting as a barrier to prevent sperm from reaching the uterus.",
+		  "image": "https://static.wixstatic.com/media/63de71_9f098c404c01408d858b9ebdc0ae9016~mv2.png/v1/fit/w_969%2Ch_961%2Cal_c%2Cq_80,enc_auto/file.jpg",
+		  "category": "Sexual health",
+		  "price": 49.99
+		},
+		{
+		  "name": "Floss",
+		  "description": "Floss is a dental hygiene product used to clean between the teeth and remove plaque and food particles.",
+		  "image": "https://locatelcolombia.vtexassets.com/arquivos/ids/226909/7891024183021_1_HILO-DENTAL-COLGATE-MENTA-X-50M.jpg?v=637273501817900000",
+		  "category": "Personal care",
+		  "price": 2.49
+		},
+		{
+		  "name": "Hair Conditioner",
+		  "description": "Hair conditioner is a hair care product applied after shampooing to improve the texture, manageability, and appearance of hair.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/766877-800-auto?v=637950283394600000&width=800&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 6.99
+		},
+		{
+		  "name": "Dental Picks",
+		  "description": "Dental picks are oral hygiene tools used to clean between the teeth and remove plaque, food particles, and tartar.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/935811-800-auto?v=638160172891730000&width=800&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 3.99
+		},
+		{
+		  "name": "Heating Pad",
+		  "description": "A heating pad is a therapeutic device that provides warmth and comfort to alleviate pain and discomfort associated with muscle strains, cramps, and injuries.",
+		  "image": "https://media.allure.com/photos/62a8a25f3e9589f4dec071b5/1:1/w_2000,h_2000,c_limit/6-14%20heating%20pads.jpg",
+		  "category": "Medicines",
+		  "price": 24.99
+		},
+		{
+		  "name": "Cold Pack",
+		  "description": "A cold pack is a therapeutic device used to apply cold therapy to an injured area, helping to reduce inflammation, swelling, and pain.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/770377-800-auto?v=637951120395300000&width=800&height=auto&aspect=true",
+		  "category": "Medicines",
+		  "price": 12.99
+		},
+		{
+		  "name": "Prenatal Support Belt",
+		  "description": "A prenatal support belt is a garment designed to provide support and relieve pain in the lower back and abdomen during pregnancy.",
+		  "image": "https://exitocol.vtexassets.com/arquivos/ids/7444396-800-auto?v=637547022356000000&width=800&height=auto&aspect=true",
+		  "category": "Maternity",
+		  "price": 32.99
+		},
+		{
+		  "name": "Maternity Pillow",
+		  "description": "A maternity pillow is a specially designed pillow to provide support and comfort to the body during pregnancy, helping to alleviate discomfort and promote better sleep.",
+		  "image": "https://http2.mlstatic.com/D_NQ_NP_855341-MCO49424614338_032022-O.webp",
+		  "category": "Maternity",
+		  "price": 49.99
+		},
+		{
+		  "name": "Vaginal Moisturizer",
+		  "description": "Vaginal moisturizer is a personal lubricant used to alleviate vaginal dryness and discomfort during sexual activity.",
+		  "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vgs/vgs00372/v/22.jpg",
+		  "category": "Sexual health",
+		  "price": 13.99
+		},
+		{
+		  "name": "Female Condom",
+		  "description": "A female condom is a pouch-like barrier device inserted into the vagina to help prevent the transmission of sexually transmitted infections and unintended pregnancies.",
+		  "image": "https://lacondoneria.co/650-large_default/condones-prudence-femenino.jpg",
+		  "category": "Sexual health",
+		  "price": 14.99
+		},
+		{
+		  "name": "Shaving Cream",
+		  "description": "Shaving cream is a personal care product applied to the skin before shaving to provide lubrication, reduce irritation, and achieve a closer shave.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/889148-800-auto?v=638103147868000000&width=800&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 4.99
+		},
+		{
+		  "name": "Razors",
+		  "description": "Razors are personal care devices with a sharp blade or multiple blades, used to remove body hair by shaving.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/889401-1600-auto?v=638103148869870000&width=1600&height=auto&aspect=true",
+		  "category": "Personal care",
+		  "price": 8.49
+		},
+		{
+		  "name": "Shampoo",
+		  "description": "Shampoo is a hair care product used to clean and remove dirt, oil, and other impurities from the hair and scalp.",
+		  "image": "https://d50xhnwqnrbqk.cloudfront.net/images/products/large/7500435019491-1.jpg",
+		  "category": "Personal care",
+		  "price": 5.99
+		},
+		{
+		  "name": "Insect Repellent",
+		  "description": "Insect repellent is a product applied to skin, clothing, or other surfaces to prevent insect bites and stings.",
+		  "image": "https://copservir.vtexassets.com/arquivos/ids/937191-800-auto?v=638161031464630000&width=800&height=auto&aspect=true",
+		  "category": "Medicines",
+		  "price": 6.49
+		},
+		{
+		  "name": "Sunscreen",
+		  "description": "Sunscreen is a lotion, spray, or gel that helps protect the skin from the sun's ultraviolet (UV) radiation, reducing the risk of sunburn and skin cancer.",
+		  "image": "https://devtechperu-expatshop-prod.s3.amazonaws.com/uploads/ecommerce/product/image/66/Total_Block_Repelente-min.jpg",
+		  "category": "Personal care",
+		  "price": 9.99
+		},
+		{
+		  "name": "Antifungal Cream",
+		  "description": "Antifungal cream is a topical medication used to treat fungal skin infections, such as athlete's foot, jock itch, and ringworm.",
+		  "image": "https://www.drogueriasanjorge.com/wp-content/uploads/2020/04/CLOTRIMAZOL-1-CREMA-VAGINAL-40-GR-AG.jpg",
+		  "category": "Medicines",
+		  "price": 8.99
+		},
+		{
+		  "name": "Ovulation Test",
+		  "description": "An ovulation test is an over-the-counter diagnostic device used to detect a surge in luteinizing hormone (LH), which typically occurs before ovulation, in urine.",
+		  "image": "https://locatelcolombia.vtexassets.com/arquivos/ids/237346-800-800?v=637558426020230000&width=800&height=800&aspect=true",
+		  "category": "Maternity",
+		  "price": 24.99
+		}
+	  ]
+	}
