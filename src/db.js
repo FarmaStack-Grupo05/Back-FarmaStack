@@ -46,7 +46,7 @@ const { Products, User, ShopCar, Sales } = sequelize.models;
 // Aca vendrian las realciones
 //    User
 User.hasMany(Sales, { foreignKey: "user_id" });
-User.hasMany(ShopCar, { foreignKey: "user_id" });
+User.belongsTo(ShopCar, { foreignKey: "user_id" }); 
 //     Sales
 Sales.belongsTo(User, { foreignKey: "user_id" });
 Sales.belongsToMany(Products, {
@@ -54,13 +54,15 @@ Sales.belongsToMany(Products, {
   foreignKey: "sale_id",
   otherKey: "product_id",
 });
+
 //   ShopCar
 ShopCar.belongsTo(User, { foreignKey: "user_id" });
 ShopCar.belongsToMany(Products, {
   through: "shopcar_product",
   foreignKey: "shopcar_id",
   otherKey: "product_id",
-});
+}); /* un carrito tiene muchos produsctos*/
+
 // Products
 Products.belongsToMany(Sales, {
   through: "sale_product",
