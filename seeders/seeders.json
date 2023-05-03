@@ -232,11 +232,11 @@
 		  "price": 29.99
 		},
 		{
-		  "name": "Pads",
-		  "description": "Pads are absorbent feminine hygiene products worn in the underwear during menstruation to absorb menstrual fluid.",
-		  "image": "https://alianza-zapatoca.s3.amazonaws.com/prod/images/products/optimized/108568-01__1000.jpg",
-		  "category": "Personal care",
-		  "price": 5.49
+			"name": "Pads",
+			"description": "Pads are absorbent feminine hygiene products worn in the underwear during menstruation to absorb menstrual fluid.",
+			"image": "https://alianza-zapatoca.s3.amazonaws.com/prod/images/products/optimized/108568-01__1000.jpg",
+			"category": "Personal care",
+			"price": 5.49
 		},
 		{
 		  "name": "Diaphragm",
@@ -357,5 +357,5 @@
 		  "category": "Maternity",
 		  "price": 24.99
 		}
-	  ]
-	}
+	]
+}
