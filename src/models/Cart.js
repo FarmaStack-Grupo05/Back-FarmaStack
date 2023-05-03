@@ -1,25 +1,28 @@
+const sequelize = require("sequelize");
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "Sales",
+    "cart",
     {
       id: {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
       },
-      date: {
-        type: DataTypes.DATE,
-        allowNull: false,
-      },
-      total: {
+      total_price: {
         type: DataTypes.FLOAT,
         allowNull: false,
       },
+      active: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true,
+      },
+      sold: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      },
     },
-    {
-      timestamps: false,
-    }
+    { timestamps: false }
   );
 };

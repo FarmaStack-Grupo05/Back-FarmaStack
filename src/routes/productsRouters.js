@@ -19,14 +19,14 @@ productsRouter.delete("/:id", deleteProduct);
 productsRouter.put("/:id", updateProduct);
 
 productsRouter.post("/upload", upload.single("image"), async (req, res) => {
-	try {
-		const result = await cloudinary.uploader.upload(req.file.path);
-		res.json(result);
-		fs.unlinkSync(req.file.path);
-	} catch (error) {
-		console.log(error);
-		res.status(500).json(error.message);
-	}
+  try {
+    const result = await cloudinary.uploader.upload(req.file.path);
+    res.json(result);
+    fs.unlinkSync(req.file.path);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json(error.message);
+  }
 });
 
 module.exports = productsRouter;
