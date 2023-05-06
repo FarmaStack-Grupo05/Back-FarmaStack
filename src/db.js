@@ -41,12 +41,12 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { Products, User, ShopCar, Sales } = sequelize.models;
+const { Products, User, Cart, Sales, Productbox } = sequelize.models;
 
 // Aca vendrian las realciones
 //    User
 User.hasMany(Sales, { foreignKey: "user_id" });
-User.belongsTo(ShopCar, { foreignKey: "user_id" }); 
+
 //     Sales
 Sales.belongsTo(User, { foreignKey: "user_id" });
 Sales.belongsToMany(Products, {
@@ -55,13 +55,13 @@ Sales.belongsToMany(Products, {
   otherKey: "product_id",
 });
 
-//   ShopCar
-ShopCar.belongsTo(User, { foreignKey: "user_id" });
-ShopCar.belongsToMany(Products, {
-  through: "shopcar_product",
-  foreignKey: "shopcar_id",
-  otherKey: "product_id",
-}); /* un carrito tiene muchos produsctos*/
+//   Cart
+Productbox.belongsTo(Products);
+Productbox.belongsTo(Cart);
+Cart.belongsToMany(Productbox, {through: 'CartProductbox'});
+Cart.belongsTo(User);
+Cart.belongsToMany(Products, {through: 'CartProducts'});
+User.belongsTo(Cart);
 
 // Products
 Products.belongsToMany(Sales, {
@@ -69,11 +69,11 @@ Products.belongsToMany(Sales, {
   foreignKey: "product_id",
   otherKey: "sale_id",
 });
-Products.belongsToMany(ShopCar, {
-  through: "shopcar_product",
-  foreignKey: "product_id",
-  otherKey: "shopcar_id",
-});
+// Products.belongsToMany(Cart, {
+//   through: "cart_product",
+//   foreignKey: "product_id",
+//   otherKey: "cart_id",
+// });
 
 module.exports = {
   sequelize,
