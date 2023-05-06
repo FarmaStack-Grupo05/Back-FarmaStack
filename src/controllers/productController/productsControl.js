@@ -11,16 +11,17 @@ const getProductsWithFilters = async ({
 	maxPrice = "all",
 	sortName = "default",
 	sortPrice = "default",
-	category = "",
+	category = "default",
 }) => {
 	let products = await getProducts();
+	console.log(sortPrice);
 
 	if (name) {
 		products = products.filter((c) =>
 			c.name.toLowerCase().includes(name.toLowerCase())
 		);
 	}
-	if (category) {
+	if (category !== "default") {
 		products = products.filter((c) =>
 			c.category.toLowerCase().includes(category.toLowerCase())
 		);
@@ -52,7 +53,7 @@ const getProductsWithFilters = async ({
 				return sortPrice === "asc" ? 1 : -1;
 			}
 			if (a.price < b.price) {
-				return sortName === "asc" ? -1 : 1;
+				return sortPrice === "asc" ? -1 : 1;
 			}
 			return 0;
 		});
