@@ -1,11 +1,10 @@
-const sequelize = require("sequelize");
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "Cart",
+    "Order",
     {
-      id: {
+      paymentId: { // viene de paypal
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
@@ -15,11 +14,10 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      total_price: {
+      totalPrice: {
         type: DataTypes.FLOAT,
         allowNull: false,
-      }
-    },
-    { timestamps: false }
+      },
+    }
   );
 };
