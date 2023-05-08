@@ -41,39 +41,28 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { Products, User, Cart, Sales, Productbox } = sequelize.models;
+const { Products, User, Cart, CartItem, Order, OrderItem } = sequelize.models;
 
-// Aca vendrian las realciones
-//    User
-User.hasMany(Sales, { foreignKey: "user_id" });
+//  Un usuario tiene un carro y un carro pertenece a un solo usuario
+User.hasOne(Cart)
+Cart.belongsTo(User)
 
-//     Sales
-Sales.belongsTo(User, { foreignKey: "user_id" });
-Sales.belongsToMany(Products, {
-  through: "sale_product",
-  foreignKey: "sale_id",
-  otherKey: "product_id",
-});
+// Un carrito tiene muchos items de carrito
+Cart.hasMany(CartItem, { as: 'products' })
+CartItem.belongsTo(Cart)
 
-//   Cart
-Productbox.belongsTo(Products);
-Productbox.belongsTo(Cart);
-Cart.belongsToMany(Productbox, {through: 'CartProductbox'});
-Cart.belongsTo(User);
-Cart.belongsToMany(Products, {through: 'CartProducts'});
-User.belongsTo(Cart);
+// Un producto tiene muchos items de carrito
+Products.hasMany(CartItem)
+CartItem.belongsTo(Products)
 
-// Products
-Products.belongsToMany(Sales, {
-  through: "sale_product",
-  foreignKey: "product_id",
-  otherKey: "sale_id",
-});
-// Products.belongsToMany(Cart, {
-//   through: "cart_product",
-//   foreignKey: "product_id",
-//   otherKey: "cart_id",
-// });
+// Un usuario tiene muchas orders
+User.hasMany(Order)
+Order.belongsTo(User)
+
+// una order tiene muchos items de orden
+Order.hasMany(OrderItem)
+OrderItem.belongsTo(Order)
+
 
 module.exports = {
   sequelize,

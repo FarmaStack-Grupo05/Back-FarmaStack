@@ -1,7 +1,9 @@
-const { Router } = require("express");
-const cartRouter = Router();
-const { definitiveCart } = require ("../controllers/productController/cartController")
+const { Router } = require("express")
 
-cartRouter.post("/create/:id", definitiveCart)
+const cartRouter = Router()
 
-module.exports = cartRouter;
+const getCart = require("../handlers/cart/getCart")
+
+cartRouter.get("/", getCart)
+
+module.exports = cartRouter
