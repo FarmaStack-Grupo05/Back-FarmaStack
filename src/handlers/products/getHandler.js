@@ -1,9 +1,10 @@
 const {
 	getProductsWithFilters,
+	getProducts,
 } = require("../../controllers/productController/productsControl");
 
 const getHandler = async (req, res) => {
-	let result = await getCourses();
+	let result = await getProducts();
 	if (req.query.page == "all") {
 		//este if es para que traiga todos los cursos en una sola respuesta y no por pagina
 		try {
