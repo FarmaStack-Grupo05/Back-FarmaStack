@@ -6,8 +6,8 @@ module.exports = (sequelize) => {
     "OrderItem",
     {
       id: {
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.INTEGER,
+        autoIncrement: true,
         primaryKey: true,
       },
       quantity: {
@@ -18,7 +18,10 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
         allowNull: false,
       },
-    },
-    { timestamps: false }
+      subtotal: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      }
+    }
   );
 };
