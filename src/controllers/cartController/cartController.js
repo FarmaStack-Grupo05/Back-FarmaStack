@@ -1,7 +1,7 @@
 const { sequelize: { models: { Cart, CartItem, Products } } } = require("../../db");
 
 const getUserCart = async (userId) => {
-  const [cart] = await Cart.findOrCreate({
+  let [cart] = await Cart.findOrCreate({
     where: { user_auth0_id: userId },
     defaults: {
       total_price: 0
@@ -16,6 +16,15 @@ const getUserCart = async (userId) => {
 
   if (!cart.products) {
     cart.setDataValue('products', []);
+  } else {
+    // Actualizar el precio total del carrito cada vez que se consulta
+    cart.total_price = 0
+  
+    cart.products.forEach((item) => {
+      cart.total_price += item.subtotal
+    })
+  
+    cart = await cart.save()
   }
 
   return cart
@@ -67,12 +76,7 @@ const addCartItem = async (userId, productId, quantity = 1) => {
 
 const removeCartItem = async (userId, productId) => {
   let cart = await Cart.findOne({
-    where: { user_auth0_id: userId },
-    include: [{
-      model: CartItem,
-      as: 'products',
-      include: [Products]
-    }]
+    where: { user_auth0_id: userId }
   })
 
   const rowsAffected = await CartItem.destroy({
@@ -88,16 +92,32 @@ const removeCartItem = async (userId, productId) => {
 
   const updatedCart = await getUserCart(userId)
 
-  // Actualizar el precio total del carrito
-  updatedCart.total_price = 0
+  return updatedCart
+}
 
-  updatedCart.products.forEach((item) => {
-    updatedCart.total_price += item.subtotal
+const modifyCartItem = async (userId, productId, newQuantity) => {
+  const cart = await Cart.findOne({
+    where: { user_auth0_id: userId }
+  })
+  const product = await CartItem.findOne({
+    where: {
+      ProductId: productId,
+      CartId: cart.id
+    }
+  })
+  
+  if (!product) {
+    throw new Error("Producto no encontrado")
+  }
+  
+  await product.update({
+    quantity: newQuantity,
+    subtotal: newQuantity * product.price
   })
 
-  await updatedCart.save()
+  const updatedCart = await getUserCart(userId)
 
   return updatedCart
 }
 
-module.exports = { getUserCart, addCartItem, removeCartItem }
+module.exports = { getUserCart, addCartItem, removeCartItem, modifyCartItem }
