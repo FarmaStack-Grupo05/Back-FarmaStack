@@ -14,7 +14,6 @@ const getProductsWithFilters = async ({
 	category = "default",
 }) => {
 	let products = await getProducts();
-	console.log(sortPrice);
 
 	if (name) {
 		products = products.filter((c) =>
