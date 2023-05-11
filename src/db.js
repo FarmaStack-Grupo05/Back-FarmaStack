@@ -63,6 +63,8 @@ Order.belongsTo(User)
 Order.hasMany(OrderItem)
 OrderItem.belongsTo(Order)
 
+// 
+
 
 module.exports = {
   sequelize,
