@@ -4,7 +4,7 @@ module.exports = (sequelize) => {
   sequelize.define(
     "Order",
     {
-      paymentId: { // viene de paypal
+      payment_id: { // viene de paypal
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
@@ -14,7 +14,7 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      totalPrice: {
+      total_price: {
         type: DataTypes.FLOAT,
         allowNull: false,
       },

@@ -41,7 +41,7 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { Products, User, Cart, CartItem, Order, OrderItem } = sequelize.models;
+const { Products, User, Cart, CartItem, Order, OrderItem, Address } = sequelize.models;
 
 //  Un usuario tiene un carro y un carro pertenece a un solo usuario
 User.hasOne(Cart)
@@ -59,10 +59,13 @@ CartItem.belongsTo(Products)
 User.hasMany(Order)
 Order.belongsTo(User)
 
-// una order tiene muchos items de orden
+// Una order tiene muchos items de orden
 Order.hasMany(OrderItem)
 OrderItem.belongsTo(Order)
 
+// Una orden tiene una dirección de envío
+Order.hasOne(Address)
+Address.belongsTo(Order)
 
 module.exports = {
   sequelize,
