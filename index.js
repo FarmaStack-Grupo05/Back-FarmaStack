@@ -10,7 +10,7 @@ const fillDataBase = () => {
 	});
 };
 
-conn.sync({ force: true }).then(() => {
+conn.sync({ force: false }).then(() => {
 	app.listen(3001, () => {
 		fillDataBase();
 		console.log("listening at 3001");

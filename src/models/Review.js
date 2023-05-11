@@ -2,12 +2,12 @@ const {DataTypes} = require("sequelize")
 
 module.exports = (sequelize) => {
     sequelize.define(
-        "Rewview",
+        "Review",
         {
             rating: {
-                type: DataTypes.ENUM("One", "Two", "Three", "Four", "Five"),
+                type: DataTypes.INTEGER,
                 allowNull: false,
-              },
+              }
         }
     )
 }
