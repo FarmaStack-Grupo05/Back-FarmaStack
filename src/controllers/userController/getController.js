@@ -9,7 +9,6 @@ const getController = async (req) => {
 				email,
 			},
 		});
-
 		return result;
 	} else {
 		let result = await User.findAll();
