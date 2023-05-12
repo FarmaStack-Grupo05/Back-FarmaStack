@@ -31,9 +31,7 @@ const getUserCart = async (userId) => {
 }
 
 const addCartItem = async (userId, productId, quantity = 1) => {
-  const cart = await Cart.findOne({
-    where: { user_auth0_id: userId }
-  })
+  const cart = await getUserCart(userId)
   const product = await Products.findOne({
     where: { id: productId }
   })
