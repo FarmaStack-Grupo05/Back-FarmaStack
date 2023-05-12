@@ -55,6 +55,10 @@ CartItem.belongsTo(Cart)
 Products.hasMany(CartItem)
 CartItem.belongsTo(Products)
 
+// Un producto tiene muchos items de orden
+Products.hasMany(OrderItem)
+OrderItem.belongsTo(Products)
+
 // Un usuario tiene muchas orders
 User.hasMany(Order)
 Order.belongsTo(User)

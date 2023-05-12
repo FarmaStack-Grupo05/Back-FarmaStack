@@ -1,4 +1,4 @@
-const { sequelize: { models: { Order, OrderItem, Cart, CartItem } } } = require("../../db");
+const { sequelize: { models: { Order, OrderItem, Cart, CartItem, Products } } } = require("../../db");
 
 const getOrderById = async (orderId) => {
   if (!orderId) throw new Error('No id provided')
@@ -17,7 +17,12 @@ const getOrderByPaymentId = async (paymentId) => {
     where: {
       payment_id: paymentId
     },
-    include: [OrderItem]
+    include: [{
+      model: OrderItem,
+      include: [{
+        model: Products,
+      }]
+    }]
   })
 
   return order
@@ -63,17 +68,16 @@ const createOrder = async (userId, auth0Id, paymentId) => {
   })
 
   const orderItems = cart.products.map(product => ({
-    OrderId: order.id,
-    product_id: product.id,
+    ProductId: product.ProductId,
     quantity: product.quantity,
     price: product.price,
     subtotal: product.subtotal
   }))
 
-  const t = await OrderItem.bulkCreate(orderItems)
+  const orderItemsInstances = await OrderItem.bulkCreate(orderItems)
   
   // Adds relation between order and order items
-  await order.setOrderItems(t)
+  await order.setOrderItems(orderItemsInstances)
 
   await cart.destroy()
 
