@@ -5,9 +5,9 @@ module.exports = (sequelize) => {
     "Order",
     {
       payment_id: { // viene de paypal
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.STRING,
         primaryKey: true,
+        allowNull: false,
       },
       // Mientras solo usemos auth0 y no nuestra propia bd, este relaciona el carrito con el usuario
       user_auth0_id: {
