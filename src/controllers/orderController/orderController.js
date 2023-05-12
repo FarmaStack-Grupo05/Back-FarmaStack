@@ -4,7 +4,12 @@ const getOrderById = async (orderId) => {
   if (!orderId) throw new Error('No id provided')
 
   const order = await Order.findByPk(orderId, {
-    include: [OrderItem]
+    include: [{
+      model: OrderItem,
+      include: [{
+        model: Products,
+      }]
+    }]
   })
 
   return order
@@ -35,7 +40,12 @@ const getUserOrders = async (userId) => {
     where: {
       UserId: userId
     },
-    include: [OrderItem]
+    include: [{
+      model: OrderItem,
+      include: [{
+        model: Products,
+      }]
+    }]
   })
 
   return orders
