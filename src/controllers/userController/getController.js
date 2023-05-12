@@ -4,7 +4,7 @@ const { Op } = require("sequelize");
 const getController = async (req) => {
 	const { email } = req.query;
 	if (email) {
-		let result = await User.findAll({
+		let result = await User.findOne({
 			where: {
 				email,
 			},
