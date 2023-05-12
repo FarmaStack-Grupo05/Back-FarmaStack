@@ -4,17 +4,17 @@ module.exports = (sequelize) => {
   sequelize.define(
     "Order",
     {
-      paymentId: { // viene de paypal
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+      payment_id: { // viene de paypal
+        type: DataTypes.STRING,
         primaryKey: true,
+        allowNull: false,
       },
       // Mientras solo usemos auth0 y no nuestra propia bd, este relaciona el carrito con el usuario
       user_auth0_id: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      totalPrice: {
+      total_price: {
         type: DataTypes.FLOAT,
         allowNull: false,
       },
