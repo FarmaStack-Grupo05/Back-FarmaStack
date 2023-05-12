@@ -1,4 +1,19 @@
-const { sequelize: { models: { Order, OrderItem, Cart, CartItem, Products } } } = require("../../db");
+const { sequelize: { models: { Order, OrderItem, Cart, CartItem, Products, User } } } = require("../../db");
+
+const getAllOrders = async () => {
+  const orders = await Order.findAll({
+    include: [{
+      model: OrderItem,
+      include: [{
+        model: Products,
+      }]
+    }, {
+      model: User,
+    }]
+  })
+
+  return orders
+}
 
 const getOrderById = async (orderId) => {
   if (!orderId) throw new Error('No id provided')
@@ -94,4 +109,4 @@ const createOrder = async (userId, auth0Id, paymentId) => {
   return order
 }
 
-module.exports = { getOrderById, getUserOrders, getOrderByPaymentId, createOrder };
+module.exports = { getOrderById, getUserOrders, getOrderByPaymentId, createOrder, getAllOrders };

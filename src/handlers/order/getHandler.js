@@ -1,4 +1,4 @@
-const { getOrderById, getUserOrders, getOrderByPaymentId } = require("../../controllers/orderController/orderController");
+const { getOrderById, getUserOrders, getOrderByPaymentId, getAllOrders } = require("../../controllers/orderController/orderController");
 
 const getHandler = async (req, res) => {
   try {
@@ -19,7 +19,8 @@ const getHandler = async (req, res) => {
       return res.status(200).send(order);
     }
 
-    res.status(400).send("Missing params");
+    const allOrders = await getAllOrders();
+    res.status(200).send(allOrders)
   } catch (error) {
     console.log(error);
     res.status(400).json(error.message);
