@@ -6,7 +6,14 @@ const seeders = require("./seeders/seeders.json");
 const fillDataBase = () => {
 	seeders.products.forEach((product) => {
 		// esta funcion carga la base de datos
-		Products.create(product);
+		Products.findOrCreate({
+			where: {
+				name: product.name,
+			},
+			defaults: {
+				...product,
+			},
+		});
 	});
 };
 
