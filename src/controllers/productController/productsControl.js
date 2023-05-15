@@ -1,7 +1,14 @@
+const { Op } = require("sequelize");
 const { Products, Review } = require("../../db");
 
 const getProducts = async (req) => {
 	const result = await Products.findAll({
+		// where stock > 0
+		where: {
+			stock: {
+				[Op.gt]: 0
+			}
+		},
 		include: Review
 	});
 	return result;
