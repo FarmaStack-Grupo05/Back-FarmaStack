@@ -8,7 +8,7 @@ const getHandler = async (req, res) => {
 
 	// Si no hay req.query.withNoStock, se filtran los productos que no tienen stock
 	if (req.query.withNoStock !== "true") {
-		result = result.filter((product) => product.stock > 0);
+		result = result.filter((product) => product.stock > 0 && product.active);
 	}
 
 	if (req.query.page == "all") {
@@ -32,7 +32,7 @@ const getHandler = async (req, res) => {
 
 			// Si no hay req.query.withNoStock, se filtran los productos que no tienen stock
 			if (req.query.withNoStock !== "true") {
-				result = result.filter((product) => product.stock > 0);
+				result = result.filter((product) => product.stock > 0 && product.active);
 			}
 
 			if (end < result.length) {
