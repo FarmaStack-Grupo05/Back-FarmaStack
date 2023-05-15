@@ -62,7 +62,9 @@ const getProductsWithFilters = async ({
 	return products;
 };
 const getProductsId = async (id) => {
-	let result = await Products.findByPk(id);
+	let result = await Products.findByPk(id, {
+		include: Review
+	});
 	return result;
 };
 
