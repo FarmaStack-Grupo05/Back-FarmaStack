@@ -81,10 +81,6 @@ const createOrder = async (userId, auth0Id, paymentId) => {
 
   if (!cart) throw new Error('Cart not found')
 
-  // const address = await Address.findByPk(addressId)
-
-  // if (!address) throw new Error('Address not found')
-
   const order = await Order.create({
     payment_id: paymentId,
     total_price: cart.total_price,
@@ -105,6 +101,13 @@ const createOrder = async (userId, auth0Id, paymentId) => {
   await order.setOrderItems(orderItemsInstances)
 
   await cart.destroy()
+
+  // Handle stock
+  orderItemsInstances.forEach(async (item) => {
+    const product = await Products.findByPk(item.ProductId)
+    product.stock -= item.quantity
+    await product.save()
+  })
 
   return order
 }

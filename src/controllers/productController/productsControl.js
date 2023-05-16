@@ -1,7 +1,9 @@
-const { Products } = require("../../db");
+const { Products, Review } = require("../../db");
 
-const getProducts = async (req) => {
-	const result = await Products.findAll();
+const getProducts = async () => {
+	const result = await Products.findAll({
+		include: Review
+	});
 	return result;
 };
 
@@ -60,7 +62,9 @@ const getProductsWithFilters = async ({
 	return products;
 };
 const getProductsId = async (id) => {
-	let result = await Products.findByPk(id);
+	let result = await Products.findByPk(id, {
+		include: Review
+	});
 	return result;
 };
 
