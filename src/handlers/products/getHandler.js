@@ -5,6 +5,12 @@ const {
 
 const getHandler = async (req, res) => {
 	let result = await getProducts();
+
+	// Si no hay req.query.withNoStock, se filtran los productos que no tienen stock
+	if (req.query.withNoStock !== "true") {
+		result = result.filter((product) => product.stock > 0 && product.active);
+	}
+
 	if (req.query.page == "all") {
 		//este if es para que traiga todos los cursos en una sola respuesta y no por pagina
 		try {
@@ -22,7 +28,12 @@ const getHandler = async (req, res) => {
 		const results = {};
 
 		try {
-			const result = await getProductsWithFilters(req.query);
+			let result = await getProductsWithFilters(req.query);
+
+			// Si no hay req.query.withNoStock, se filtran los productos que no tienen stock
+			if (req.query.withNoStock !== "true") {
+				result = result.filter((product) => product.stock > 0 && product.active);
+			}
 
 			if (end < result.length) {
 				results.next = {
