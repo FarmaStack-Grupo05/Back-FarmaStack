@@ -24,6 +24,7 @@ const setUserAdmin = () => {
 		},
 		defaults: {
 			name: "Farmastack",
+			image: "",
 			address: "cll falsa 123",
 			phone: "3224566789",
 			rol: "admin",
