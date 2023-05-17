@@ -14,13 +14,15 @@ const activateUserId = async (id) => {
 };
 
 const editUserId = async (id, data) => {
-	const { name, email, image } = data;
+	const { name, email, image, address, phone } = data;
 	const user = await User.findByPk(id);
 	const result = await user.update(
 		{
 			name,
-			email,
 			image,
+			address,
+			phone,
+			email,
 		},
 		{
 			where: {

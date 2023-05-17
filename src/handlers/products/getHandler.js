@@ -32,8 +32,12 @@ const getHandler = async (req, res) => {
 
 			// Si no hay req.query.withNoStock, se filtran los productos que no tienen stock
 			if (req.query.withNoStock !== "true") {
-				result = result.filter((product) => product.stock > 0 && product.active);
+				result = result.filter(
+					(product) => product.stock > 0 && product.active
+				);
 			}
+
+			const totalPages = Math.ceil(result.length / limit); // Calcular el número total de páginas
 
 			if (end < result.length) {
 				results.next = {
@@ -50,6 +54,7 @@ const getHandler = async (req, res) => {
 				start,
 				end
 			); /* slice: divide el array que llega por result */
+			results.totalPages = totalPages; // Agregar la variable totalPages al objeto results
 			res.status(200).json(results);
 		} catch (error) {
 			res.status(400).send(error.message);
